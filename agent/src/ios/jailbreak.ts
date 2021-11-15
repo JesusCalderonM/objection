@@ -45,6 +45,11 @@ const jailbreakPaths = [
   "/var/lib/cydia",
   "/var/log/syslog",
   "/var/tmp/cydia.log",
+  "/Library/MobileSubstrate/DynamicLibraries/LiveClock.plist",
+	"/private/var/lib/apt",
+	"/private/var/lib/cydia",
+	"/private/var/mobile/Library/SBSettings/Themes",
+	"/System/Library/LaunchDaemons/com.saurik.Cydia.Startup.plist",
 ];
 
 export namespace iosjailbreak {
